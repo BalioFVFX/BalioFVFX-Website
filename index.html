@@ -8,30 +8,40 @@
     <body>
 
     <section id ="about">
-            <div id="lines">
-                    <div id="line">
-                      <h1 id="pageTitle">BalioFVFX</h1>
+        <div id="lines">
+                <div id="line">
+                        <h1 id="pageTitle">BalioFVFX</h1>
                     </div>
                 
-            </div>
+        </div>
                 
     </section>
 
     <section id ="projects">
         <div id="lines-project">
                 <div id="line">
-                  <h1 id="pageTitle">Projects</h1>
+                        <h1 id="pageTitle">Projects</h1>
                 </div> 
 
                 
-                        <div class="img-container">
-                        <img src="snake.png" alt="" style="width:100%" id="projectImages" onmouseover="showSnakeGameText()">
-                        <p id="snakeGameText">Snake Game</p>
-                </div>
-                        <div class="img-container">
-                          <img src="snake.png" alt="" style="width:100%" id="projectImages" onmouseover="showPhoneStatusText()">
-                          <p id="phoneStatusText">Phone Status</p>
+                <div class="img-container">
+                                <div class="img__wrap">
+                                                <img class="img__img" src="snake.png" style="width:100%" />
+                                        <div class="img__description_layer">
+                                        <p class="img__description">Snake Game.</p>
+                                        </div>
+                                </div>
+                                </div>
+                
+                <div class="img-container">
+                <div class="img__wrap">
+                                <img class="img__img" src="snake.png" style="width:100%" />
+                        <div class="img__description_layer">
+                        <p class="img__description">Phone Status.</p>
                         </div>
+                </div>
+                </div>
+                        
                    
             
          </div>
@@ -41,5 +51,6 @@
     <section id ="skills">
             <h1>Skills</h1>
     </section>
+    <script src="main.js"></script>
     </body>
 </html>
