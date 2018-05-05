@@ -25,3 +25,27 @@ text-align: center;
     width:30%;
     left: 5%;
 }
+
+.navbar{
+    width:100%;
+    text-align:center;
+    background: rgb(30, 74, 131);
+}
+
+.navbar ul li {
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px 50px;
+    color:white;
+    font-size: 24px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.navbar ul li:hover{
+    background:orange;
+}
+
+a{
+    text-decoration: none;
+    color:white;
