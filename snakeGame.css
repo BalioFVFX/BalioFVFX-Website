@@ -2,7 +2,11 @@
 
 section{width:100%; height:1000px;}
 
-#about{background: url("1.jpg");}
+#about{
+    background-image: url("t.png");
+    background-size:cover;
+    background-attachment: fixed;
+}
 
 #title-content{
     position: relative;
